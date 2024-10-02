@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+}
+.block {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/front_foto1.jpg);
+    background-repeat: no-repeat;
+}
+li {
+    display: inline-block;
+}
+header {
+display: flex;
+justify-content: space-between;
+}
+header img:nth-child(1) {
+    margin: 20px;
+}
+header img:nth-child(2) {
+    margin: 35px;
+}
+header img:nth-child(3) {
+    margin: 20px;
+}
+.tytletext {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 14%;
+}
+.tytleundertext {
+    color: white;
+    text-align: center;
+}
+.key {
+margin: 100px 50%;
+}
+.pngheart_text {
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-bottom: 30px;
+}
+.thyu {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.kv {
+    display: flex;
+}
+.kv1{
+    background-color: black;
+    width: 50%;
+    height: 560px;
+    padding: 20px;
+    padding-right: 0px;  
+}
+.text_kv1{
+    color: white;
+    border: solid white;
+    border-right: black;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 400px;
+}
+.kv2{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 600px;
+    padding-top: 20px;
+}
+.kv2_1{
+    background-color: white;
+    margin-left: 0px;
+    width: 700px;
+    height: 550px;
+    border: solid black;
+    border-left: black;
+    z-index: 1;
+}
+.square2{
+    float: right;
+    width: 500px;
+    height: 600px;
+}
+.centerphoto {
+    width: 418px;
+    height: 500px;
+    position: absolute;
+    margin: 2.5% 35%;
+    z-index: 3;
+}
+.background2{
+    filter: grayscale();
+    background-image: url(../img/background2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.biglogo{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+}
+.textbackground2 {
+    padding: 2%;
+    padding-bottom: 1%;
+    font-size: 300%;
+    color: white;
+}
+.litletextbackground2{
+    color: white;
+    font-size: 150%;
+    padding: 2%;
+    padding-top: 0%;
+}
+.cardback {
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(1);
+    transition: 1s;
+    position: absolute;
+    margin: 0;
+}
+.cardback:hover{
+    filter: grayscale(0);
+}
+.card {
+    position: absolute;
+    margin: 10% 40%;
+    width: 318px;
+    height: 512px;
+    filter: grayscale(1);
+    transition: 1s;
+    position: absolute;
+}
+.card:hover{
+    filter: grayscale(0);
+}
+.photogalaryblock {
+    margin-top:61%;
+    width: 100%;
+    height: 320vh;
+    color: black;
+    background-color: black;
+}
+.photogalarytext {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    font-size: 220%;
+}
+.photogalarytextartiste {
+    color: azure;
+    font-size: 103%;
+}
+.photogalarytext2 {
+ color: white;
+ text-align: end;
+ font-size: 220%;
+ text-indent: 5%;
+ margin-right: 10%;
+}
+.photogalarytext2_0 {
+    color: white;
+    text-align: end;
+    font-size: 220%;
+    text-indent: 5%;
+    margin-right: 35%;
+}
+.photogalarylitletext {
+    color: white;
+    text-align: start;
+    margin-left: 52%;
+    margin-top: 1%;
+}
+.swiper {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 50%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+.swiperphoto {
+    text-align: center;
+}
+.kvadrat {
+    margin: 2% 1%;
+    height: 80vh;
+    width: 1430px;
+    border-radius: 50px;
+    background-color: #807f7f;
+    padding-top: 5%;
+}
+.end {
+    margin-top: 15%;
+    width: 100%;
+}
+.endtext {
+    margin-left: 20%;
+}
+.endtextphoto {
+    display: flex; 
+    justify-content: space-around;
+}
+.endphotobox {
+    padding: 2%;
+    transform: rotate(-40deg);
+    background-color: #fff;
+    transform: rotate(120gr);
+}
+.endphoto {
+    text-align: center;
+    width: 250px;
+    height: 170px;
+}
+.contacts {
+    text-align: center;
+}
